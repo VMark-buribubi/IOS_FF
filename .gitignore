@@ -1,0 +1,115 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+### IDEA
+.idea
+.vscode/*
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+backend/.vs/
+
+### ASP.NET CORE
+*.swp
+*.*~
+project.lock.json
+*.pyc
+nupkg/
+appsettings.**.json
+
+### Misc
+*.pem
+
+### Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+### Testing
+coverage
+report
+build-tmp
+dist
+
+### Production
+/build
+
+### Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+### User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+### Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+###Should include the mac os user gitignore global!
+.DS_Store
