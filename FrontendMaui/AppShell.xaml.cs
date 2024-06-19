@@ -7,6 +7,7 @@
             InitializeComponent();
             Routing.RegisterRoute("studentdetails", typeof(StudentDetailPage));
             Routing.RegisterRoute("addnewstudent", typeof(AddNewStudentPage));
+            Routing.RegisterRoute("updatestudent", typeof(UpdateStudentPage));
         }
     }
 }

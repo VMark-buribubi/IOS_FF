@@ -31,6 +31,11 @@ namespace FrontendMaui
             builder.Services.AddTransient<AppShell>();
             builder.Services.AddTransient<CreateStudentViewModel>();
             builder.Services.AddTransient<AddNewStudentPage>();
+            builder.Services.AddTransient<SubjectPageViewModel>();
+            builder.Services.AddTransient<CreateStudentViewModel>();
+            builder.Services.AddTransient<UpdateStudentViewModel>();
+            builder.Services.AddTransient<UpdateStudentPage>();
+
 
 
             return builder.Build();

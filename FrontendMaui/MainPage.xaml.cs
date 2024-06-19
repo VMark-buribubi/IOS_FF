@@ -15,7 +15,6 @@
             base.OnAppearing();
             await viewModel.LoadStudentAsync();
         }
-
     }
 
 }

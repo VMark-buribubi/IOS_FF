@@ -23,29 +23,26 @@ namespace FrontendMaui
         {
             _httpClient = httpClient;
         }
+
         [RelayCommand]
         public async Task NavigateToCreateStudentPageAsync()
         {
             await Shell.Current.GoToAsync("addnewstudent");
         }
+
         [RelayCommand]
         public async Task ShowStudentDetailsAsync()
         {
             if (selectedListItem != null)
             {
                 var param = new ShellNavigationQueryParameters
-                {
-                    {"Student",selectedListItem}
-                };
+            {
+                {"Student",selectedListItem}
+            };
                 await Shell.Current.GoToAsync("studentdetails", param);
             }
-
         }
-        //[RelayCommand]
-        //public async Task UpdatePersonAsync()
-        //{
-        //    await Shell.Current.GoToAsync("updateperson");
-        //}
+
         [RelayCommand]
         public async Task DeleteStudentAsync(string id)
         {
@@ -55,11 +52,23 @@ namespace FrontendMaui
             {
                 await LoadStudentAsync();
             }
-
         }
+
+        [RelayCommand]
+        public async Task NavigateToUpdateStudentPageAsync()
+        {
+            if (selectedListItem != null)
+            {
+                var param = new Dictionary<string, object>
+        {
+            { "Student", selectedListItem }
+        };
+                await Shell.Current.GoToAsync("updatestudent", param);
+            }
+        }
+
         public async Task LoadStudentAsync()
         {
-
             try
             {
                 var students = await _httpClient.GetFromJsonAsync<Student[]>($"Student");
@@ -77,8 +86,9 @@ namespace FrontendMaui
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error occured: {ex.Message}");
+                Console.WriteLine($"Error occurred: {ex.Message}");
             }
         }
     }
+
 }

@@ -7,10 +7,13 @@
     Shell.FlyoutBehavior="Flyout"
     Title="FrontendMaui">
 
-    <FlyoutItem Title="Neptun manager" Route="Main">
+    <FlyoutItem Title="Student manager" Route="Main">
         <ShellContent Route="Login" ContentTemplate="{DataTemplate local:LoginPage}" />
         <ShellContent Route="MainPage" ContentTemplate="{DataTemplate local:MainPage}" />
         <ShellContent Route="addnewstudent" ContentTemplate="{DataTemplate local:AddNewStudentPage}"/>
+        <ShellContent Route="updatestudent" ContentTemplate="{DataTemplate local:UpdateStudentPage}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Subject manager" Route="Main">
     </FlyoutItem>
 
 </Shell>

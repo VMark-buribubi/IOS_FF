@@ -62,7 +62,7 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <Grid Grid.Row="2" ColumnDefinitions="*,*">
+        <Grid Grid.Row="2" ColumnDefinitions="*,*,*">
             <Button Text="Add New Student"
                     Command="{Binding NavigateToCreateStudentPageCommand}"
                     BackgroundColor="Green"
@@ -73,7 +73,11 @@
                     BackgroundColor="Blue"
                     TextColor="White"
                     Grid.Column="1"/>
+            <Button Text="Update Student"
+                    Command="{Binding NavigateToUpdateStudentPageCommand}"
+                    BackgroundColor="Orange"
+                    TextColor="White"
+                    Grid.Column="2"/>
         </Grid>
     </Grid>
-
 </ContentPage>

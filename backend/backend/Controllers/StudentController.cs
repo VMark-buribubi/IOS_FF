@@ -54,7 +54,6 @@ namespace backend.Controllers
         }
 
 
-        [Authorize]
         [HttpPut]
         public void EditStudent([FromBody] Student s)
         {
