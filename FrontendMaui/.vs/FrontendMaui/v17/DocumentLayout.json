@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D8827F9-8876-405B-8800-30A0E654F899}|FrontendMaui.csproj|c:\\users\\plant\\source\\repos\\ios_ff\\frontendmaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D8827F9-8876-405B-8800-30A0E654F899}|FrontendMaui.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D8827F9-8876-405B-8800-30A0E654F899}|FrontendMaui.csproj|c:\\users\\plant\\source\\repos\\ios_ff\\frontendmaui\\updatestudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D8827F9-8876-405B-8800-30A0E654F899}|FrontendMaui.csproj|solutionrelative:updatestudentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5D8827F9-8876-405B-8800-30A0E654F899}|FrontendMaui.csproj|c:\\users\\plant\\source\\repos\\ios_ff\\frontendmaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D8827F9-8876-405B-8800-30A0E654F899}|FrontendMaui.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D8827F9-8876-405B-8800-30A0E654F899}|FrontendMaui.csproj|c:\\users\\plant\\source\\repos\\ios_ff\\frontendmaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5D8827F9-8876-405B-8800-30A0E654F899}|FrontendMaui.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D8827F9-8876-405B-8800-30A0E654F899}|FrontendMaui.csproj|c:\\users\\plant\\source\\repos\\ios_ff\\frontendmaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -114,37 +114,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UpdateStudentViewModel.cs",
               "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\UpdateStudentViewModel.cs",
               "RelativeDocumentMoniker": "UpdateStudentViewModel.cs",
               "ToolTip": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\UpdateStudentViewModel.cs",
               "RelativeToolTip": "UpdateStudentViewModel.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwDUAAAAxAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwEIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T06:30:11.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\MainPageViewModel.cs",
-              "RelativeDocumentMoniker": "MainPageViewModel.cs",
-              "ToolTip": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\MainPageViewModel.cs",
-              "RelativeToolTip": "MainPageViewModel.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwEIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T03:38:05.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -152,25 +139,23 @@
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T02:33:29.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:33:29.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UpdateStudentPage.xaml",
               "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\UpdateStudentPage.xaml",
               "RelativeDocumentMoniker": "UpdateStudentPage.xaml",
-              "ToolTip": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\UpdateStudentPage.xaml*",
-              "RelativeToolTip": "UpdateStudentPage.xaml*",
+              "ToolTip": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\UpdateStudentPage.xaml",
+              "RelativeToolTip": "UpdateStudentPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-19T06:32:20.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T06:32:20.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
@@ -178,25 +163,23 @@
               "RelativeToolTip": "AppShell.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:33:28.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateStudentPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\UpdateStudentPage.xaml.cs",
-              "RelativeDocumentMoniker": "UpdateStudentPage.xaml.cs",
-              "ToolTip": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\UpdateStudentPage.xaml.cs*",
-              "RelativeToolTip": "UpdateStudentPage.xaml.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T06:32:23.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:33:28.318Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "UpdateStudentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\UpdateStudentPage.xaml.cs",
+              "RelativeDocumentMoniker": "UpdateStudentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\UpdateStudentPage.xaml.cs",
+              "RelativeToolTip": "UpdateStudentPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:32:23.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AddNewStudentPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\AddNewStudentPage.xaml.cs",
               "RelativeDocumentMoniker": "AddNewStudentPage.xaml.cs",
@@ -204,12 +187,11 @@
               "RelativeToolTip": "AddNewStudentPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T04:13:22.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T04:13:22.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
@@ -217,21 +199,32 @@
               "RelativeToolTip": "MainPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:36:33.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:36:33.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAIwFMAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-18T02:37:52.056Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "MainPageViewModel.cs",
+              "ToolTip": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\MainPageViewModel.cs",
+              "RelativeToolTip": "MainPageViewModel.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwEIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:38:05.096Z"
             },
             {
               "$type": "Document",
@@ -243,8 +236,7 @@
               "RelativeToolTip": "App.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T02:36:29.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:36:29.883Z"
             },
             {
               "$type": "Document",
@@ -256,8 +248,7 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:32:22.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:32:22.752Z"
             },
             {
               "$type": "Document",
@@ -269,8 +260,7 @@
               "RelativeToolTip": "MauiProgram.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAmwCQAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:40:38.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:40:38.513Z"
             },
             {
               "$type": "Document",
@@ -282,8 +272,7 @@
               "RelativeToolTip": "AddNewStudentPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T04:13:18.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T04:13:18.894Z"
             },
             {
               "$type": "Document",
@@ -295,8 +284,7 @@
               "RelativeToolTip": "StudentDetailPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T04:00:22.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T04:00:22.896Z"
             },
             {
               "$type": "Document",
@@ -308,8 +296,7 @@
               "RelativeToolTip": "StudentCreateRequest.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAABQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T03:53:44.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T03:53:44.993Z"
             },
             {
               "$type": "Document",
@@ -321,21 +308,19 @@
               "RelativeToolTip": "CreateStudentViewModel.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAowEAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T03:49:18.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T03:49:18.878Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "FrontendMaui",
+              "Title": "FrontendMaui.csproj",
               "DocumentMoniker": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\FrontendMaui.csproj",
               "RelativeDocumentMoniker": "FrontendMaui.csproj",
               "ToolTip": "C:\\Users\\plant\\source\\repos\\IOS_FF\\FrontendMaui\\FrontendMaui.csproj",
               "RelativeToolTip": "FrontendMaui.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-19T06:09:09.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T06:09:09.243Z"
             },
             {
               "$type": "Document",
@@ -347,8 +332,7 @@
               "RelativeToolTip": "SubjectPageViewModel.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:59:50.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T00:59:50.216Z"
             },
             {
               "$type": "Document",
@@ -360,8 +344,7 @@
               "RelativeToolTip": "Subject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T06:13:56.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T06:13:56.317Z"
             },
             {
               "$type": "Document",
@@ -373,8 +356,7 @@
               "RelativeToolTip": "LoginPage.xaml",
               "ViewState": "AQIAAA8AAAAAAAAAAIBJwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T02:45:11.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:45:11.975Z"
             },
             {
               "$type": "Document",
@@ -386,8 +368,7 @@
               "RelativeToolTip": "LoginPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:46:44.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:46:44.343Z"
             },
             {
               "$type": "Document",
@@ -399,8 +380,7 @@
               "RelativeToolTip": "Student.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:26:17.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:26:17.15Z"
             },
             {
               "$type": "Document",
@@ -412,8 +392,7 @@
               "RelativeToolTip": "LoginViewModel.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwFAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:47:28.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:47:28.079Z"
             },
             {
               "$type": "Document",
@@ -425,8 +404,7 @@
               "RelativeToolTip": "AuthenticatedHttpClientHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T06:16:06.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T06:16:06.829Z"
             },
             {
               "$type": "Document",
@@ -438,8 +416,7 @@
               "RelativeToolTip": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAA6wEMAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:51:51.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T02:51:51.217Z"
             },
             {
               "$type": "Document",
@@ -451,8 +428,7 @@
               "RelativeToolTip": "StudentDetailPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T04:04:44.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T04:04:44.429Z"
             }
           ]
         }

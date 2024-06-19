@@ -54,7 +54,9 @@
                                         CommandParameter="{Binding Id}"
                                         Margin="2"
                                         WidthRequest="80"
-                                        HeightRequest="30"/>
+                                        HeightRequest="30"
+                                        BackgroundColor="Red"
+                                        TextColor="White"/>
                             </VerticalStackLayout>
                         </Grid>
                     </Border>
