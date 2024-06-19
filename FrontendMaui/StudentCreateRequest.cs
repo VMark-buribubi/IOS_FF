@@ -11,11 +11,11 @@ namespace FrontendMaui
     {
         public string? Id { get; set; }
         [Required]
-        //[StringLength(30, MinimumLength = 3)]
+        [StringLength(30, MinimumLength = 3)]
         public string Name { get; set; } = "";
 
         [Required]
-        //[StringLength(6,MinimumLength =6)]
+        [StringLength(6,MinimumLength =6)]
         public string Neptun { get; set; } = "";
 
     }
