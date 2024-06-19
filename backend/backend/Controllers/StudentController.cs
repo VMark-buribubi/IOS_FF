@@ -31,7 +31,7 @@ namespace backend.Controllers
             return dbContext.Students.FirstOrDefault(x => x.Id == id);
         }
 
-        [Authorize]
+        
         [HttpPost]
         public IActionResult AddStudent([FromBody] Student s)
         {
@@ -65,7 +65,7 @@ namespace backend.Controllers
             dbContext.SaveChanges();
         }
 
-        [Authorize]
+        
         [HttpDelete("{id}")]
         public void DeteleStudent(string id)
         {

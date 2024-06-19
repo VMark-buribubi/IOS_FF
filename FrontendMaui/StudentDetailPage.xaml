@@ -1,0 +1,59 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FrontendMaui.StudentDetailPage"
+             Title="StudentDetailPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="#333333" />
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="Margin" Value="0,5" />
+                <Setter Property="HorizontalOptions" Value="Start" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style TargetType="Label" x:Key="TitleLabel">
+                <Setter Property="TextColor" Value="#333333" />
+                <Setter Property="FontSize" Value="24" />
+                <Setter Property="Margin" Value="0,5" />
+                <Setter Property="HorizontalOptions" Value="Start" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style TargetType="Frame" x:Key="DetailFrame">
+                <Setter Property="BackgroundColor" Value="#f0f0f0" />
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="Padding" Value="20" />
+                <Setter Property="Margin" Value="20" />
+                <Setter Property="HasShadow" Value="True" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <!-- Display "{student's name}'s details:" -->
+        <Label Style="{StaticResource TitleLabel}" HorizontalOptions="Center" Margin="0,20,0,10">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="{Binding Student.Name}" />
+                    <Span Text="'s details:" />
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <!-- Frame to contain student details -->
+        <Frame Style="{StaticResource DetailFrame}">
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <!-- Display Name -->
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,10">
+                    <Label Text="Name:" Style="{StaticResource TitleLabel}" />
+                    <Label Text="{Binding Student.Name}" FontSize="Large" HorizontalOptions="StartAndExpand" />
+                </StackLayout>
+
+                <!-- Display Neptun -->
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,10">
+                    <Label Text="Neptun:" Style="{StaticResource TitleLabel}" />
+                    <Label Text="{Binding Student.Neptun}" FontSize="Medium" HorizontalOptions="StartAndExpand" />
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

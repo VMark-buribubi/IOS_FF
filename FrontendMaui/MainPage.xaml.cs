@@ -2,24 +2,20 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        private readonly MainPageViewModel viewModel;
 
-        public MainPage()
+        public MainPage(MainPageViewModel viewModel)
         {
             InitializeComponent();
+            this.viewModel = viewModel;
+            BindingContext = viewModel;
         }
-
-        private void OnCounterClicked(object sender, EventArgs e)
+        protected override async void OnAppearing()
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            base.OnAppearing();
+            await viewModel.LoadStudentAsync();
         }
+
     }
 
 }

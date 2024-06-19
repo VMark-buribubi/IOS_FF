@@ -1,12 +1,15 @@
-﻿namespace FrontendMaui
+﻿using Microsoft.Extensions.DependencyInjection;
+
+namespace FrontendMaui
 {
     public partial class App : Application
     {
-        public App()
+        public App(IServiceProvider serviceProvider)
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = serviceProvider.GetRequiredService<AppShell>();
+
         }
     }
 }
